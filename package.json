@@ -1,0 +1,26 @@
+{
+  "name": "hackaton-spiik",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexxUtopia/hackaton-spiik.git"
+  },
+  "author": "Lexx Damm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LexxUtopia/hackaton-spiik/issues"
+  },
+  "homepage": "https://github.com/LexxUtopia/hackaton-spiik#readme",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
